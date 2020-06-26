@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.236	
+FROM jenkins/jenkins:lts	
 	USER root
 	RUN apt-get -qq update \
 	&& apt-get -qq -y install \
